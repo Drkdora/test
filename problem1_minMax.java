@@ -50,8 +50,21 @@ public class problem1_minMax
 		      }
 		  }
 		}
-		// 
 		System.out.println(max1*max2);
-		
+		scan.close();
 	}
 }
+
+// Sample Input 1
+// 6
+// 1 2 6 5 1 2
+// 3 4 3 2 2 5
+// Output
+//18
+
+// Sample Input 2
+// 25
+// 8 7 9 6 5 6 6 5 6 4 6 7 8 5 4 3 2 1 4 5 6 7 8 7 8
+// 2 4 5 6 7 6 7 8 9 8 7 6 7 6 5 4 3 2 3 4 5 5 5 4 5
+// Output
+// 63

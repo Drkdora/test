@@ -31,6 +31,6 @@ public class problem5_perfectNum {
         int inp = scan.nextInt();
         // calling the function and printing the output
         System.out.println(func(inp));
-
+        scan.close();
     }
 }
